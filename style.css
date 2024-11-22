@@ -225,12 +225,3 @@ main {
     width: 100%;
   }
 }
-
-@media (max-width: 2200px) {
-  .image2 img {
-    position: absolute;
-    bottom: 1000%;
-    left: 50%;
-  }
-}
-
