@@ -34,7 +34,7 @@ body {
 }
 
 .menu {
-  display: none; /* Спочатку меню приховано */
+  display: none;
   position: absolute;
   top: 60px;
   right: 20px;
@@ -47,7 +47,7 @@ body {
 }
 
 .menu.active {
-  display: flex; /* Відображаємо меню при активації */
+  display: flex;
 }
 
 .menu ul {
@@ -71,20 +71,18 @@ body {
   color: #00bcd4;
 }
 
-/* Основний контейнер */
 .main {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Дві колонки */
-  grid-template-rows: auto; /* Рядки автоматичної висоти */
-  padding: 40px; /* Внутрішні відступи */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 40px;
   position: relative;
   column-gap: 100px;
   height: 100%;
 }
 
-/* Ліва частина */
 .intro {
-  grid-column: 1 / 2; /* Ліва колонка */
+  grid-column: 1 / 2;
   grid-row: 1 / 2;
   font-size: 16px;
   line-height: 1.6;
@@ -116,10 +114,9 @@ body {
   height: 30%;
 }
 
-/* Права частина */
 .image3 {
-  grid-column: 2 / 2; /* Права колонка */
-  grid-row: 1 / 2; /* Другий рядок */
+  grid-column: 2 / 2;
+  grid-row: 1 / 2;
   max-width: 70%;
   margin-top: 60px;
 }
@@ -153,10 +150,11 @@ body {
   align-items: center;
   background-color: #555555;
   height: 115px;
-  width: 100vw; /* На всю ширину екрана */
+  width: 100vw;
   position: relative;
   left: 50%;
-  transform: translateX(-50%); /* Центрує */
+  transform: translateX(-50%);
+  color: white;
 }
 
 @media (max-width: 1120px) {
