@@ -225,3 +225,29 @@ main {
     width: 100%;
   }
 }
+
+@media (min-width: 2200px) {
+  body .image2 img {
+    position: absolute;
+    bottom: 50%;
+    left: 35%;
+  }
+}
+
+@media (min-width: 2500px) {
+  body .image2 img {
+    position: absolute;
+    bottom: 65%;
+    left: 35%;
+  }
+}
+
+@media (min-width: 2800px) {
+  body .image2 img {
+    position: absolute;
+    bottom: 75%;
+    left: 35%;
+  }
+}
+
+
