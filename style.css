@@ -237,7 +237,7 @@ main {
 @media (min-width: 2500px) {
   body .image2 img {
     position: absolute;
-    bottom: 65%;
+    bottom: 60%;
     left: 35%;
   }
 }
@@ -245,7 +245,7 @@ main {
 @media (min-width: 2800px) {
   body .image2 img {
     position: absolute;
-    bottom: 75%;
+    bottom: 70%;
     left: 35%;
   }
 }
